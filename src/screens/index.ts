@@ -1,0 +1,10 @@
+export { LoginScreen } from './auth/LoginScreen';
+export { RegisterScreen } from './auth/RegisterScreen';
+export { DashboardEvaluadorScreen } from './dashboard/DashboardEvaluadorScreen';
+export { DashboardEvaluadoScreen } from './dashboard/DashboardEvaluadoScreen';
+export { EvaluacionScreen } from './evaluation/EvaluacionScreen';
+export { RevisionArchivosScreen } from './evaluation/RevisionArchivosScreen';
+export { ResumenEvaluacionScreen } from './evaluation/ResumenEvaluacionScreen';
+export { CargaDocumentosScreen } from './evaluado/CargaDocumentosScreen';
+export { ConfirmacionCargaScreen } from './evaluado/ConfirmacionCargaScreen';
+export { DashboardAdminScreen } from './admin/DashboardAdminScreen';
