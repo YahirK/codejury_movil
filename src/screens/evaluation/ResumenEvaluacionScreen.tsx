@@ -3,11 +3,11 @@ import {
     View,
     Text,
     StyleSheet,
-    SafeAreaView,
     ScrollView,
     TouchableOpacity,
     Dimensions,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Polygon, Circle, Line, Text as SvgText, G } from 'react-native-svg';
 import { colors, spacing, fontSize, fontWeight, borderRadius, shadows } from '../../theme';
 import { Button } from '../../components/common';

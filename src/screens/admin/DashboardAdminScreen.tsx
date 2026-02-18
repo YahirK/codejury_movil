@@ -3,11 +3,11 @@ import {
     View,
     Text,
     StyleSheet,
-    SafeAreaView,
     ScrollView,
     TouchableOpacity,
     TextInput,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, spacing, fontSize, fontWeight, borderRadius, shadows } from '../../theme';
 import { Button, StatusBadge } from '../../components/common';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
